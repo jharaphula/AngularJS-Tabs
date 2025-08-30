@@ -10,15 +10,10 @@ AngularJS, a JavaScript framework developed by Google, simplifies front-end deve
 
 # Key Components #
 
-1. Tab Headers – Clickable elements that switch between content sections. 2. Content Panes – Containers that hold the content for each tab. 3. Active State Management – Tracks which tab is currently selected.
+1. Tab Headers – Clickable elements that switch between content sections.
+2. Content Panes – Containers that hold the content for each tab. 
+3. Active State Management – Tracks which tab is currently selected.
 
-# Setting Up the AngularJS Application #
-
-Before creating tabs, set up a basic AngularJS application:
-
-```html
-
-```
 # Creating the Tab Structure #
 
 Step 1: Define the Tab Data
@@ -50,22 +45,6 @@ Apply basic styling to improve the visual appearance:
 
 ```css .tab-headers { list-style: none; padding: 0; margin: 0; display: flex; border-bottom: 1px solid ccc; } .tab-headers li { padding: 10px 20px; cursor: pointer; border: 1px solid ddd; margin-right: 5px; background: f9f9f9; } .tab-headers li.active { background: fff; border-bottom: 1px solid fff; } .tab-content { padding: 20px; border: 1px solid ddd; border-top: none; } ```
 
-# Adding Dynamic Contents #
-
-Instead of static text, tabs can load dynamic content using `ng-include` or HTTP requests:
-
-```html
-
-```
-# Advanced Features #
-
-Nested Tabs
-
-Tabs can be nested within other tabs for complex layouts:
-
-```html
-
-```
 # Animations #
 
 AngularJS animations can be added for smoother transitions between tabs using `ngAnimate`:
